@@ -1,3 +1,10 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin: auto;
+  background-color: #f1ebe9;
+}
 .App {
   text-align: center;
 }
@@ -9,13 +16,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color:#8c175c;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -30,4 +34,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+.span{
+  color:green;
+}
+.quote__container{
+  margin-top:30px;
+  text-align: center;
+  justify-content: center;
+  font-size: 45px
+}
+.quote{
+  padding: 10px;
+}
+.clem{
+  margin-top: 50px;
+  padding: 20px;
+  font-style: italic;
+  font-weight: normal;
+}
+.btn{
+  height: 40px;
+  font-weight: bold;
+  color: green
+  
+}
+.author{
+  font-size: 25px;
 }

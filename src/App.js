@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+import Quotes from "./Quotes";
+import Clem from "./Clem"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <div className="App-header">
+      <header>
+        <h1>Clem's Quotes Bible.</h1>
+        <h5>Freeborn Version</h5>
       </header>
+      </div>
+        <Quotes />
+        <Clem />
     </div>
   );
 }
